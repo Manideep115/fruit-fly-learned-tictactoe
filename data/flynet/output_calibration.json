@@ -1,0 +1,25 @@
+{
+  "description": "Fixed unsupervised MBON readout calibration. Means and scales were estimated from untrained FlyNet responses to random reachable nonterminal boards, with no rewards, labels, tactics, or game outcomes.",
+  "mean": [
+    0.3704,
+    0.9432,
+    0.0046,
+    0.4346,
+    0.2966,
+    0.1599,
+    0.2705,
+    0.5714,
+    0.2756
+  ],
+  "scale": [
+    0.6524,
+    1.0542,
+    0.0968,
+    0.5479,
+    0.4049,
+    0.3158,
+    0.321,
+    0.6142,
+    0.3958
+  ]
+}

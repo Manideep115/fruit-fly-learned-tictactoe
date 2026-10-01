@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Generated FlyNet / experiment artifacts
+data/flynet/flynet_learned_weights.npy
+
+# Large raw FlyWire data
+data/connection/
+data/cell_types/
+data/classification/
+/classification.csv.gz
+/connections_princeton.csv.gz
+/consolidated_cell_types.csv.gz
+
+# Experiment outputs / logs
+*.log
+results/
+outputs/
+checkpoints/
+
+# Temporary files
+*.tmp
+*.bak
